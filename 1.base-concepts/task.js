@@ -74,8 +74,3 @@ function calculateTotalMortgage(percent, contribution, amount, date) {
 
   return Number(totalAmount.toFixed(2));
 }
-
-const nextYearDate = new Date(new Date().setFullYear(new Date().getFullYear() + 1));
-
-const result = calculateTotalMortgage(10, 1000, 50000, nextYearDate);
-console.log(result);
