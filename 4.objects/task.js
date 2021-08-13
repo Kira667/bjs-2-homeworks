@@ -1,59 +1,8 @@
-
-//class University {
-  //constructor(arrStudents) {
-   // this.setNewStudents(arrStudents)
-  //}
-
-  //setNewStudents(arrStudents) {
-   // this.students = arrStudents;
- // }
-
-  //findAllStudentsByName(name) {
-  //  return this.students.slice().filter(student => student.name === name);
-  //}
-
- // findAllStudentsByAge(age) {
-  //  return this.students.slice().filter(student => student.age === age);
-  //}
-
-  //findAllStudentsByGender(gender) {
-   // return this.students.slice().filter(student => student.gender === gender);
- // }
-//}
-
-//class Student {
-  //constructor({name, gender, age}) {
-    //this.name = name;
-    //this.gender = gender;
-    //this.age = age;
-  //}
-
-  //setNewAge(age) {
-   // this.age = age;
-  //}
-
-  //setNewGender(gender) {
-   // this.gender = gender;
-  //}
-
-  //setNewName(name) {
-   // this.name = name;
-  //}
-//}
-
 function Student(name, gender, age) {
   this.name = name;
   this.gender = gender;
   this.age = age;
 }
-
-
-//const student10 = new Student("Михаил", "male", "22");
-//const student11 = new Student({name: 'Михаил', age: 29, gender: 'male'});
-//const student12 = new Student({name: 'Виктория', age: 20, gender: 'female'});
-//const student13 = new Student({name: 'Игорь', age: 23, gender: 'male'});
-//const student14 = new Student({name: 'Мария', age: 20, gender: 'female'});
-//const student15 = new Student({name: 'Маша', age: 22, gender: 'female'});
 
 
 Student.prototype.setSubject = function (subjectName) {
