@@ -141,3 +141,27 @@ console.log(library1.giveBookByName('Пикник на обочине'));
 // console.log(library1.findBookBy('author', 'Лев Толстой 1'));
 // console.log(library1.findBookBy('type', 'novel'));
 // console.log(library1.findBookBy('name', 'Война и Мир 1'));
+
+
+//ЗАДАЧА 3
+
+class Student {
+  
+}
+
+
+
+
+
+
+
+const student = new Student("Олег Никифоров");
+student.addMark(5, "algebra");
+student.addMark(5, "algebra");
+student.addMark(5, "geometry");
+student.addMark(4, "geometry");
+student.addMark(6, "geometry"); // "Ошибка, оценка должна быть числом от 1 до 5"
+student.getAverageBySubject("geometry"); // Средний балл по предмету geometry 4.5
+student.getAverageBySubject("biology"); // Несуществующий предмет
+student.getAverage(); // Средний балл по всем предметам 4.75
+student.exclude("Исключен за попытку подделать оценки");
